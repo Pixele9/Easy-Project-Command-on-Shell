@@ -59,7 +59,6 @@ try:
 		os.chdir(folder)
 		os.system(f"mkdir {proj_name}")
 		os.chdir(proj_name)
-		os.system("touch app.py")
 		os.system("code .")
 		os.system("open -a iTerm .")
 
